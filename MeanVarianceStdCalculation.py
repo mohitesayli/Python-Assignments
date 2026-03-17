@@ -1,0 +1,18 @@
+import numpy as np
+data = [6,7,8,9,10,11,12]
+#------------------------------------
+# Mean Calculation
+#------------------------------------
+mean_value = np.mean(data)
+print("Dataset : ",data)
+print("Mean : ",mean_value)
+
+#------------------------------------
+# Variance and Standard Deviation
+#------------------------------------
+
+variance = np.var(data)
+std_dev = np.std(data)
+
+print("Variance : ",variance)
+print("Standars Deviation : ",std_dev)
